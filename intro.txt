@@ -1,0 +1,24 @@
+why react - makes easy to manage and build complex front end
+
+why react created - No consistency in UI in the facebook UI
+
+state-> JS
+UI -> DOM
+
+- React is a library 
+
+Topics to learn
+- core of React, state, JSX
+- component
+- Props
+- Hooks
+
+Additional
+- Router
+- Stage management
+
+After React - Project
+- no SEO, browser render of JS, no routing
+
+Framework - NextJS, Gatsby, Remix
+
