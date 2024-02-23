@@ -6,6 +6,15 @@ function App() {
   const [counter, setCounter] = useState(0);
 
   const addValue = () => {
+    // below code does not increase the count 5 times, because of batching done in react
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+
+    // This code will increase the counter 5 times, becasue for each callback to finish it requires
+    // previous value
     setCounter((prevCounter)=>prevCounter+1)
     setCounter((prevCounter)=>prevCounter+1);
     setCounter((prevCounter)=>prevCounter+1);
